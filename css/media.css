@@ -1,0 +1,381 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+div.live{
+	border-left: none;
+	margin-left: 0;
+	min-height: 147px;
+	max-width: 310px;
+	padding: 32px 0 0 0;
+}
+
+div.live span.number {
+    border-left: 1px solid #babbc4;
+    display: inline-block;
+    float: right;
+    height: 34px;
+    margin: 27px 0 0 0;
+    padding: 7px 0 0 29px;
+    font-size: 24px;
+}
+
+.clients{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.users .avatar {
+    position: absolute;
+    left: 98px;
+    top: 72px;
+}
+
+.inner-users{
+	margin-top: 20px;
+}
+
+.map-inner {
+	top: 187px;
+	left: 523px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ul.navigation li{
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.inner-users{
+	min-height: 235px;
+}
+
+.users .avatar {
+	top: 115px;
+}
+
+.our-clients .company {
+	margin: 30px auto;
+}
+
+.plans-pricing {
+ text-align: center;
+}
+
+.plans-pricing a{
+	margin-top: 40px;
+}
+
+.map-main-inner {
+    min-height: 450px;
+}
+
+.map-inner {
+	top: 202px;
+	left: 539px;
+}
+
+.copyright {
+	margin: 40px auto;
+}
+
+.map-marker {
+ 	font-size: 80%;
+}
+
+}
+
+/* Small Devices, Tablets - 768px */
+@media only screen and (max-width : 768px) {
+
+ul.navigation {
+   margin: 20px auto 0;
+}
+
+ul.navigation li{
+	display: block;
+	margin: 20px 0 0 0;
+	border-bottom: 1px solid #202242;
+}
+
+ul.navigation a{
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 90%;
+}
+
+a.logo img{
+	width: 132px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+div.live {
+	border-left: none;
+	margin: 0 auto;
+	min-height: 147px;
+	max-width: 310px;
+	padding: 32px 0 0 0;
+	text-align: center;
+	font-size: 90%;
+}
+
+div.live span.number {
+	border-left: 1px solid #babbc4;
+	display: inline-block;
+	float: right;
+	height: 34px;
+	margin: 27px 46px 0 0;
+	padding: 7px 0 0 15px;
+	font-size: 18px;
+}
+
+.web-host {
+	background: linear-gradient(180deg, #202242 57%, #ffe13e 50%);
+	min-height: 652px;
+}
+
+.web-host-services, .domain-host-services {
+	text-align: center;
+	margin-top: 0;
+}
+
+.domain-host-services{
+	padding-top: 50px;
+	padding-bottom: 45px;
+	margin-top: -137px;
+}
+
+.domain-host-services h2 {
+    margin-top: 30px;
+}
+
+.web-host-services {
+	background-position: 50% 50px;
+	background-size: 150px auto; 
+	padding-top: 255px;
+	padding-bottom: 186px;
+}
+
+.domain-host-services .com {
+	font-size: 104px;
+	margin-top: 0;
+}
+	
+.inner-professional h1 {
+    font-size: 41px;
+    line-height: 48px;
+}
+
+.search input[type=submit] {
+    border-top: 1px solid #fff;
+}
+
+.plans-pricing h3{
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.map-inner {
+	top: 46%;
+	left: 75%;
+	width: 22%;
+}
+
+.map-marker {
+    font-size: 60%;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+
+.web-host-services {
+	background: url(../img/ico-webhost.png) no-repeat 50% 50px;
+	background-size: 120px auto; 
+}
+
+.domain-host-services .com {
+    font-size: 80px;
+}
+
+	.inner-professional h1 {
+    font-size: 31px;
+    line-height: 38px;
+}
+
+.inner-professional .search {
+    border: 18px solid rgba(255, 255, 255, 0.3);
+}
+
+.search input[type=text] {
+    width: 100%;
+}
+
+.search select {
+    width: 100%;
+    margin-left: 0;
+}
+
+.search input[type=submit] {
+    border-left: none;
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-left: 0;
+}
+
+.our-features h2,
+.our-clients h2 {
+    font-size: 40px;
+}
+
+.inner-users {
+    min-height: 300px;
+}
+
+.users .avatar {
+    top: 180px;
+}
+
+.map-inner {
+display: none;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	div.live span.number {
+		border-left: none;
+		display: inline-block;
+		float: right;
+		height: 34px;
+		margin: 27px 25px 0 0;
+		padding: 7px 0 0 15px;
+		font-size: 20px;
+	}
+
+.inner-professional h1 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.inner-professional p {
+    font-size: 18px;
+    margin-top: 70px;
+    font-family: RobotoLight;
+    word-spacing: 10px;
+}
+
+.inner-professional {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.web-host-services {
+	background: url(../img/ico-webhost.png) no-repeat 50% 50px;
+	background-size: 110px auto; 
+	padding-top: 200px;
+	padding-bottom: 0;
+}
+
+.web-host {
+    background: linear-gradient(180deg, #202242 55%, #ffe13e 50%);
+    min-height: 652px;
+}
+
+.domain-host-services {
+    padding-top: 190px;
+    margin-top: 0;
+}
+
+.domain-host-services .com {
+    font-size: 60px;
+}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+.inner-professional .search {
+    border: 18px solid rgba(255, 255, 255, 0.3);
+    width: 85%;
+}
+
+.search input[type=text] {
+    width: 70%;
+    padding: 26px 20px 25px 21px;
+}
+
+.search select {
+    width: 30%;
+}
+
+.search input[type=submit] {
+    border-left: none;
+    width: 100%;
+    margin-right: -5px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+.web-host-services{
+	background: url(../img/ico-webhost.png) no-repeat 46% 0;
+	padding-right: 40px;
+}
+
+.domain-host-services{ 
+	padding-left: 40px;
+}
+
+.inner-professional .search {
+    width: 600px;
+}
+
+.search input[type=text] {
+	padding: 23px 20px 23px 21px;
+   width: 50%;
+}
+
+.search select {
+    width: 20%;
+    padding: 19px 20px 21px 20px;
+}
+
+.search input[type=submit] {
+    border-left: none;
+    width: 30%;
+    margin-right: 0;
+    border-left: 1px solid #fff;
+    border-top: none;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

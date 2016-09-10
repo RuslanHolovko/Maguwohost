@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@keyframes fill {
+  0% {
+  	opacity: 1;
+    width: 100%;
+    height: 100%;
+  }
+  50% {
+    opacity: 1;
+    width: 80%;
+    height: 45px;
+  }
+
+  75% {
+    opacity: .5;
+    width: 50%;
+    height: 30px;
+  }
+
+  100% {
+    opacity: .4;
+    width: 0;
+    height: 0;
+    background: #ffe13e;
+  }
+}
+
