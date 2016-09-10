@@ -202,6 +202,7 @@ header a.logo{
 }
 
 .search select{
+	border: none;
 	font-size: 18px;
 	background: #ffe13e;
 	padding: 22px 20px 23px 20px;
@@ -507,6 +508,7 @@ p.user-name{
 	margin-left: 3px;
 	display: inline-block;
 	width: 15px;
+	height: 15px;
 }
 
 .map-main-inner{
